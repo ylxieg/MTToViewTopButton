@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		381AA8F11D752A6300038A38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 381AA8F01D752A6300038A38 /* main.m */; };
+		381AA8F41D752A6300038A38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 381AA8F31D752A6300038A38 /* AppDelegate.m */; };
+		381AA8F71D752A6300038A38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 381AA8F61D752A6300038A38 /* ViewController.m */; };
+		381AA8FA1D752A6300038A38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381AA8F81D752A6300038A38 /* Main.storyboard */; };
+		381AA8FC1D752A6300038A38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381AA8FB1D752A6300038A38 /* Assets.xcassets */; };
+		381AA8FF1D752A6300038A38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381AA8FD1D752A6300038A38 /* LaunchScreen.storyboard */; };
+		381AA90A1D752A6300038A38 /* MTToViewTopButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 381AA9091D752A6300038A38 /* MTToViewTopButtonDemoTests.m */; };
+		381AA9151D752A6300038A38 /* MTToViewTopButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 381AA9141D752A6300038A38 /* MTToViewTopButtonDemoUITests.m */; };
+		381AA9261D752A9800038A38 /* MTToViewTopButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 381AA9241D752A9800038A38 /* MTToViewTopButton.m */; };
+		381AA9271D752A9800038A38 /* toTopButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 381AA9251D752A9800038A38 /* toTopButton@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		381AA9061D752A6300038A38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 381AA8E41D752A6300038A38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 381AA8EB1D752A6300038A38;
+			remoteInfo = MTToViewTopButtonDemo;
+		};
+		381AA9111D752A6300038A38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 381AA8E41D752A6300038A38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 381AA8EB1D752A6300038A38;
+			remoteInfo = MTToViewTopButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		381AA8EC1D752A6300038A38 /* MTToViewTopButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTToViewTopButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		381AA8F01D752A6300038A38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		381AA8F21D752A6300038A38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		381AA8F31D752A6300038A38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		381AA8F51D752A6300038A38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		381AA8F61D752A6300038A38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		381AA8F91D752A6300038A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		381AA8FB1D752A6300038A38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		381AA8FE1D752A6300038A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		381AA9001D752A6300038A38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		381AA9051D752A6300038A38 /* MTToViewTopButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTToViewTopButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		381AA9091D752A6300038A38 /* MTToViewTopButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTToViewTopButtonDemoTests.m; sourceTree = "<group>"; };
+		381AA90B1D752A6300038A38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		381AA9101D752A6300038A38 /* MTToViewTopButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTToViewTopButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		381AA9141D752A6300038A38 /* MTToViewTopButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTToViewTopButtonDemoUITests.m; sourceTree = "<group>"; };
+		381AA9161D752A6300038A38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		381AA9231D752A9800038A38 /* MTToViewTopButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTToViewTopButton.h; sourceTree = "<group>"; };
+		381AA9241D752A9800038A38 /* MTToViewTopButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTToViewTopButton.m; sourceTree = "<group>"; };
+		381AA9251D752A9800038A38 /* toTopButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toTopButton@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		381AA8E91D752A6300038A38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		381AA9021D752A6300038A38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		381AA90D1D752A6300038A38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		381AA8E31D752A6300038A38 = {
+			isa = PBXGroup;
+			children = (
+				381AA8EE1D752A6300038A38 /* MTToViewTopButtonDemo */,
+				381AA9081D752A6300038A38 /* MTToViewTopButtonDemoTests */,
+				381AA9131D752A6300038A38 /* MTToViewTopButtonDemoUITests */,
+				381AA8ED1D752A6300038A38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		381AA8ED1D752A6300038A38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				381AA8EC1D752A6300038A38 /* MTToViewTopButtonDemo.app */,
+				381AA9051D752A6300038A38 /* MTToViewTopButtonDemoTests.xctest */,
+				381AA9101D752A6300038A38 /* MTToViewTopButtonDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		381AA8EE1D752A6300038A38 /* MTToViewTopButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				381AA9221D752A9800038A38 /* MTToViewTopButton */,
+				381AA8F21D752A6300038A38 /* AppDelegate.h */,
+				381AA8F31D752A6300038A38 /* AppDelegate.m */,
+				381AA8F51D752A6300038A38 /* ViewController.h */,
+				381AA8F61D752A6300038A38 /* ViewController.m */,
+				381AA8F81D752A6300038A38 /* Main.storyboard */,
+				381AA8FB1D752A6300038A38 /* Assets.xcassets */,
+				381AA8FD1D752A6300038A38 /* LaunchScreen.storyboard */,
+				381AA9001D752A6300038A38 /* Info.plist */,
+				381AA8EF1D752A6300038A38 /* Supporting Files */,
+			);
+			path = MTToViewTopButtonDemo;
+			sourceTree = "<group>";
+		};
+		381AA8EF1D752A6300038A38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				381AA8F01D752A6300038A38 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		381AA9081D752A6300038A38 /* MTToViewTopButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				381AA9091D752A6300038A38 /* MTToViewTopButtonDemoTests.m */,
+				381AA90B1D752A6300038A38 /* Info.plist */,
+			);
+			path = MTToViewTopButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		381AA9131D752A6300038A38 /* MTToViewTopButtonDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				381AA9141D752A6300038A38 /* MTToViewTopButtonDemoUITests.m */,
+				381AA9161D752A6300038A38 /* Info.plist */,
+			);
+			path = MTToViewTopButtonDemoUITests;
+			sourceTree = "<group>";
+		};
+		381AA9221D752A9800038A38 /* MTToViewTopButton */ = {
+			isa = PBXGroup;
+			children = (
+				381AA9231D752A9800038A38 /* MTToViewTopButton.h */,
+				381AA9241D752A9800038A38 /* MTToViewTopButton.m */,
+				381AA9251D752A9800038A38 /* toTopButton@2x.png */,
+			);
+			path = MTToViewTopButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		381AA8EB1D752A6300038A38 /* MTToViewTopButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 381AA9191D752A6300038A38 /* Build configuration list for PBXNativeTarget "MTToViewTopButtonDemo" */;
+			buildPhases = (
+				381AA8E81D752A6300038A38 /* Sources */,
+				381AA8E91D752A6300038A38 /* Frameworks */,
+				381AA8EA1D752A6300038A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTToViewTopButtonDemo;
+			productName = MTToViewTopButtonDemo;
+			productReference = 381AA8EC1D752A6300038A38 /* MTToViewTopButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		381AA9041D752A6300038A38 /* MTToViewTopButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 381AA91C1D752A6300038A38 /* Build configuration list for PBXNativeTarget "MTToViewTopButtonDemoTests" */;
+			buildPhases = (
+				381AA9011D752A6300038A38 /* Sources */,
+				381AA9021D752A6300038A38 /* Frameworks */,
+				381AA9031D752A6300038A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				381AA9071D752A6300038A38 /* PBXTargetDependency */,
+			);
+			name = MTToViewTopButtonDemoTests;
+			productName = MTToViewTopButtonDemoTests;
+			productReference = 381AA9051D752A6300038A38 /* MTToViewTopButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		381AA90F1D752A6300038A38 /* MTToViewTopButtonDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 381AA91F1D752A6300038A38 /* Build configuration list for PBXNativeTarget "MTToViewTopButtonDemoUITests" */;
+			buildPhases = (
+				381AA90C1D752A6300038A38 /* Sources */,
+				381AA90D1D752A6300038A38 /* Frameworks */,
+				381AA90E1D752A6300038A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				381AA9121D752A6300038A38 /* PBXTargetDependency */,
+			);
+			name = MTToViewTopButtonDemoUITests;
+			productName = MTToViewTopButtonDemoUITests;
+			productReference = 381AA9101D752A6300038A38 /* MTToViewTopButtonDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		381AA8E41D752A6300038A38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = xieyingliang;
+				TargetAttributes = {
+					381AA8EB1D752A6300038A38 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					381AA9041D752A6300038A38 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 381AA8EB1D752A6300038A38;
+					};
+					381AA90F1D752A6300038A38 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 381AA8EB1D752A6300038A38;
+					};
+				};
+			};
+			buildConfigurationList = 381AA8E71D752A6300038A38 /* Build configuration list for PBXProject "MTToViewTopButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 381AA8E31D752A6300038A38;
+			productRefGroup = 381AA8ED1D752A6300038A38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				381AA8EB1D752A6300038A38 /* MTToViewTopButtonDemo */,
+				381AA9041D752A6300038A38 /* MTToViewTopButtonDemoTests */,
+				381AA90F1D752A6300038A38 /* MTToViewTopButtonDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		381AA8EA1D752A6300038A38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381AA8FF1D752A6300038A38 /* LaunchScreen.storyboard in Resources */,
+				381AA9271D752A9800038A38 /* toTopButton@2x.png in Resources */,
+				381AA8FC1D752A6300038A38 /* Assets.xcassets in Resources */,
+				381AA8FA1D752A6300038A38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		381AA9031D752A6300038A38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		381AA90E1D752A6300038A38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		381AA8E81D752A6300038A38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381AA9261D752A9800038A38 /* MTToViewTopButton.m in Sources */,
+				381AA8F71D752A6300038A38 /* ViewController.m in Sources */,
+				381AA8F41D752A6300038A38 /* AppDelegate.m in Sources */,
+				381AA8F11D752A6300038A38 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		381AA9011D752A6300038A38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381AA90A1D752A6300038A38 /* MTToViewTopButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		381AA90C1D752A6300038A38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381AA9151D752A6300038A38 /* MTToViewTopButtonDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		381AA9071D752A6300038A38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 381AA8EB1D752A6300038A38 /* MTToViewTopButtonDemo */;
+			targetProxy = 381AA9061D752A6300038A38 /* PBXContainerItemProxy */;
+		};
+		381AA9121D752A6300038A38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 381AA8EB1D752A6300038A38 /* MTToViewTopButtonDemo */;
+			targetProxy = 381AA9111D752A6300038A38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		381AA8F81D752A6300038A38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				381AA8F91D752A6300038A38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		381AA8FD1D752A6300038A38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				381AA8FE1D752A6300038A38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		381AA9171D752A6300038A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		381AA9181D752A6300038A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		381AA91A1D752A6300038A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MTToViewTopButtonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.MTToViewTopButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		381AA91B1D752A6300038A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MTToViewTopButtonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.MTToViewTopButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		381AA91D1D752A6300038A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MTToViewTopButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.MTToViewTopButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTToViewTopButtonDemo.app/MTToViewTopButtonDemo";
+			};
+			name = Debug;
+		};
+		381AA91E1D752A6300038A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MTToViewTopButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.MTToViewTopButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTToViewTopButtonDemo.app/MTToViewTopButtonDemo";
+			};
+			name = Release;
+		};
+		381AA9201D752A6300038A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MTToViewTopButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.MTToViewTopButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MTToViewTopButtonDemo;
+			};
+			name = Debug;
+		};
+		381AA9211D752A6300038A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MTToViewTopButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.MTToViewTopButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MTToViewTopButtonDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		381AA8E71D752A6300038A38 /* Build configuration list for PBXProject "MTToViewTopButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381AA9171D752A6300038A38 /* Debug */,
+				381AA9181D752A6300038A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		381AA9191D752A6300038A38 /* Build configuration list for PBXNativeTarget "MTToViewTopButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381AA91A1D752A6300038A38 /* Debug */,
+				381AA91B1D752A6300038A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		381AA91C1D752A6300038A38 /* Build configuration list for PBXNativeTarget "MTToViewTopButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381AA91D1D752A6300038A38 /* Debug */,
+				381AA91E1D752A6300038A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		381AA91F1D752A6300038A38 /* Build configuration list for PBXNativeTarget "MTToViewTopButtonDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381AA9201D752A6300038A38 /* Debug */,
+				381AA9211D752A6300038A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 381AA8E41D752A6300038A38 /* Project object */;
+}
